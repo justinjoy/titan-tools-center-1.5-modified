@@ -108,6 +108,8 @@ class Titan_Notice_Handler {
 
     public function getting_started_notice_dismissed() {
         if ( isset( $_GET['gs-notice-dismissed'] ) ) {
+            // Check nonce for security
+            check_admin_referer( 'titan_tools_center_nonce' );
             add_user_meta( get_current_user_id(), 'gs_notice_dismissed', 'true' );
         }
     }
@@ -117,6 +119,8 @@ class Titan_Notice_Handler {
     }
 
     public function ajax_dismiss_notice() {
+        check_ajax_referer( 'titan_tools_center_nonce', 'nonce' );
+
         if ( isset( $_POST['type'] ) && $_POST['type'] === 'getting_started_notice' ) {
             add_user_meta( get_current_user_id(), 'gs_notice_dismissed', 'true' );
         }
