@@ -75,7 +75,7 @@ class Titan_Notice_Handler {
         // Activation notice
         add_action( 'switch_theme', array( $this, 'flush_dismiss_status' ) );
         add_action( 'admin_init', array( $this, 'getting_started_notice_dismissed' ) );
-        add_action( 'admin_notices', array( $this, 'titan_theme_info_welcome_admin_notice' ), 3 );
+        // add_action( 'admin_notices', array( $this, 'titan_theme_info_welcome_admin_notice' ), 3 );
         add_action( 'wp_ajax_titan_tools_center_dismissable_notice', array( $this, 'ajax_dismiss_notice' ) );
         add_action( 'wp_ajax_titan_getting_started', array( $this, 'titan_getting_started' ) );
     }
