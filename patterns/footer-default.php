@@ -144,7 +144,7 @@
 <div class="wp-block-group alignwide" style="padding-top:15px;padding-bottom:15px"><!-- wp:site-title {"level":0,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontSize":"25px","fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontFamily":"figtree"} /-->
 
 <!-- wp:paragraph {"align":"right","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<p class="has-text-align-right has-base-color has-text-color has-link-color"><a href="<?php echo esc_url( TITAN_TOOLS_CENTER_FREE_URL ); ?>"><?php esc_html_e('Titan Tools Center WordPress Theme', 'titan-tools-center') ?></a>  <?php esc_html_e('| Proudly powered By', 'titan-tools-center') ?> <a href="https://wordpress.org" rel="nofollow"><?php esc_html_e('WordPress', 'titan-tools-center') ?></a></p>
+<p class="has-text-align-right has-base-color has-text-color has-link-color"></p>
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"white","className":"scroll-to-top","style":{"border":{"radius":"50%"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
 <div class="wp-block-button scroll-to-top"><a class="wp-block-button__link has-white-color has-primary-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:10%">.</a></div>
 <!-- /wp:button --></div>
