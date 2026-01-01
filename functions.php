@@ -24,6 +24,15 @@ if ( ! function_exists( 'titan_tools_center_styles' ) ) :
 			wp_get_theme()->get( 'Version' )
 		);
 
+
+		// Enqueue Google Fonts
+		wp_enqueue_style(
+			'titan-tools-center-fonts',
+			'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800;900&family=Lato:wght@300;400;700;900&family=Mulish:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@200;300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap',
+			array(),
+			null
+		);
+
 		wp_enqueue_style(
 			'owl.carousel-css',
 			get_template_directory_uri() . '/assets/css/owl.carousel.css',

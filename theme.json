@@ -3,45 +3,47 @@
 	"version": 2,
 	"customTemplates": [
 		{
-	      "name": "page-with-no-sidebar",
-	      "title": "Page With No Sidebar",
-	      "postTypes": [
-	        "page"
-	      ]
-	    },
+			"name": "page-with-no-sidebar",
+			"title": "Page With No Sidebar",
+			"postTypes": [
+				"page"
+			]
+		},
 		{
-	      "name": "blog-grid-layout",
-	      "title": "Grid Layout(Archieve posts)",
-	      "postTypes": ["post"]
-	    },
-	    {
-	      "name": "single-post-right-sidebar",
-	      "title": "Single Blog Page (Sidebar on Right)",
-	      "postTypes": [
-	        "post"
-	      ]
-	    },
-	    {
-	      "name": "single-post-left-sidebar",
-	      "title": "Single Blog Page (Sidebar on Left)",
-	      "postTypes": [
-	        "post"
-	      ]
-	    },
-	    {
-	      "name": "single-page-right-sidebar",
-	      "title": "Single Page (Sidebar on Right)",
-	      "postTypes": [
-	        "post"
-	      ]
-	    },
-	    {
-	      "name": "single-page-left-sidebar",
-	      "title": "Single Page (Sidebar on Left)",
-	      "postTypes": [
-	        "post"
-	      ]
-	    },
+			"name": "blog-grid-layout",
+			"title": "Grid Layout(Archieve posts)",
+			"postTypes": [
+				"post"
+			]
+		},
+		{
+			"name": "single-post-right-sidebar",
+			"title": "Single Blog Page (Sidebar on Right)",
+			"postTypes": [
+				"post"
+			]
+		},
+		{
+			"name": "single-post-left-sidebar",
+			"title": "Single Blog Page (Sidebar on Left)",
+			"postTypes": [
+				"post"
+			]
+		},
+		{
+			"name": "single-page-right-sidebar",
+			"title": "Single Page (Sidebar on Right)",
+			"postTypes": [
+				"post"
+			]
+		},
+		{
+			"name": "single-page-left-sidebar",
+			"title": "Single Page (Sidebar on Left)",
+			"postTypes": [
+				"post"
+			]
+		},
 		{
 			"name": "blank",
 			"postTypes": [
@@ -170,554 +172,41 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Quicksand",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/quicksand/static/Quicksand-Light.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Quicksand",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/quicksand/static/Quicksand-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Quicksand",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/quicksand/static/Quicksand-Medium.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Quicksand",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/quicksand/static/Quicksand-SemiBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Quicksand",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/quicksand/static/Quicksand-Bold.ttf"
-							]
-						}
-					],
 					"fontFamily": "'Quicksand', sans-serif",
 					"name": "Quicksand",
 					"slug": "quicksand"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Lato",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/lato/Lato-Light.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Lato",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/lato/Lato-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Lato",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/lato/Lato-Bold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Lato",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/lato/Lato-Black.ttf"
-							]
-						}
-						
-					],
 					"fontFamily": "'Lato', sans-serif",
 					"name": "Lato",
 					"slug": "lato"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Syne",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/syne/static/Syne-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Syne",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/syne/static/Syne-Medium.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Syne",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/syne/static/Syne-SemiBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Syne",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/syne/static/Syne-Bold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Syne",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/syne/static/Syne-ExtraBold.ttf"
-							]
-						}
-						
-					],
 					"fontFamily": "'Syne', sans-serif",
 					"name": "Syne",
 					"slug": "syne"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/mulish/static/Mulish-Light.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/mulish/static/Mulish-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/mulish/static/Mulish-Medium.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/mulish/static/Mulish-SemiBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/mulish/static/Mulish-Bold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/mulish/static/Mulish-ExtraBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/mulish/static/Mulish-Black.ttf"
-							]
-						}
-						
-					],
 					"fontFamily": "'Mulish', sans-serif",
 					"name": "Mulish",
 					"slug": "mulish"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Fira Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/fira-sans/FiraSans-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Fira Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/fira-sans/FiraSans-Medium.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Fira Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/fira-sans/FiraSans-SemiBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Fira Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/fira-sans/FiraSans-Bold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Fira Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/fira-sans/FiraSans-ExtraBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Fira Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/fira-sans/FiraSans-Black.ttf"
-							]
-						}
-						
-					],
 					"fontFamily": "'Fira Sans', sans-serif",
 					"name": "Fira Sans",
 					"slug": "fira-sans"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/urbanist/static/Urbanist-Light.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/urbanist/static/Urbanist-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/urbanist/static/Urbanist-Medium.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/urbanist/static/Urbanist-SemiBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/urbanist/static/Urbanist-Bold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/urbanist/static/Urbanist-ExtraBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/urbanist/static/Urbanist-Black.ttf"
-							]
-						}
-						
-					],
 					"fontFamily": "'Urbanist', sans-serif",
 					"name": "Urbanist",
 					"slug": "urbanist"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Poppins",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/poppins/Poppins-Light.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Poppins",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/poppins/Poppins-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Poppins",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/poppins/Poppins-Medium.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Poppins",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/poppins/Poppins-SemiBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Poppins",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/poppins/Poppins-Bold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Poppins",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/poppins/Poppins-ExtraBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Poppins",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/poppins/Poppins-Black.ttf"
-							]
-						}
-						
-					],
 					"fontFamily": "'Poppins', sans-serif",
 					"name": "Poppins",
 					"slug": "poppins"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-ExtraLight.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-Light.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-Regular.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-Medium.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-SemiBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-Bold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-ExtraBold.ttf"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Roboto",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/roboto/static/Roboto-Black.ttf"
-							]
-						}
-						
-					],
 					"fontFamily": "'Roboto', sans-serif",
 					"name": "Roboto",
 					"slug": "roboto"
@@ -877,7 +366,7 @@
 					}
 				}
 			},
-			"core/comments-title":{
+			"core/comments-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)"
 				},
