@@ -29,4 +29,11 @@ jobs:
           composer require --dev squizlabs/php_codesniffer wp-coding-standards/wpcs
 
       - name: Run PHPCS
-        run: vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets
+        run: vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=sarif --report-file=phpcs-results.sarif
+        continue-on-error: true
+
+      - name: Upload SARIF Results
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: phpcs-results.sarif
+          category: phpcs
