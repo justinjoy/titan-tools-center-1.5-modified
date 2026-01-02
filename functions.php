@@ -44,7 +44,7 @@ if ( ! function_exists( 'titan_tools_center_styles' ) ) :
 		// Enqueue Swiper JS.
 		wp_enqueue_script(
 			'swiper-js',
-			get_template_directory_uri() . '/assets/js/swiper-bundle.min.js',
+			'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js',
 			array(), 
 			'12.0.0', 
 			true 
