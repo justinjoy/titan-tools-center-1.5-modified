@@ -44,3 +44,12 @@ jobs:
         with:
           name: phpcs-report
           path: phpcs-report.txt
+
+      - name: Job Summary
+        run: |
+          echo "## 🛡️ PHPCS Quality Report" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Statistics" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=summary >> $GITHUB_STEP_SUMMARY || true
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "Full report available in Artifacts." >> $GITHUB_STEP_SUMMARY
