@@ -172,6 +172,11 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
+					"fontFamily": "\"Pretendard Variable\", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+					"name": "Pretendard",
+					"slug": "pretendard"
+				},
+				{
 					"fontFamily": "'Quicksand', sans-serif",
 					"name": "Quicksand",
 					"slug": "quicksand"
@@ -675,7 +680,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--system-font)",
+			"fontFamily": "var(--wp--preset--font-family--pretendard)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "1.6"
 		}

@@ -33,6 +33,14 @@ if ( ! function_exists( 'titan_tools_center_styles' ) ) :
 			null
 		);
 
+		// Enqueue Pretendard Font (Korean).
+		wp_enqueue_style(
+			'titan-tools-center-pretendard',
+			'https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css',
+			array(),
+			'1.3.9'
+		);
+
 		// Enqueue Swiper CSS.
 		wp_enqueue_style(
 			'swiper-css',
