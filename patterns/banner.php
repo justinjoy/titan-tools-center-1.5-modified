@@ -9,9 +9,9 @@
 
 <?php if ( class_exists( 'WooCommerce' ) && wc_get_products( array( 'status' => 'publish', 'limit' => 1 ) ) ) : ?>
 
-<!-- wp:group {"tagName":"main","className":"wp-block-group","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"tagName":"main","className":"wp-block-group","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><!-- wp:group {"layout":{"type":"constrained","contentSize":"100%"}} -->
+<!-- wp:group {"tagName":"div","className":"wp-block-group","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"tagName":"div","className":"wp-block-group","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><!-- wp:group {"layout":{"type":"constrained","contentSize":"100%"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"70%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70%"><!-- wp:group {"className":"slider animations-hidden-item","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/banner.png","id":89,"source":"file","title":"Banner"},"backgroundSize":"cover"},"dimensions":{"minHeight":"500px"},"border":{"radius":"15px"}},"layout":{"type":"constrained","contentSize":"100%"}} -->
@@ -79,14 +79,14 @@
 <div class="wp-block-column is-vertically-aligned-top slider-empty" style="flex-basis:8%"></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
-<!-- /wp:group --></main>
-<!-- /wp:group --></main>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <?php else : ?>
 
-<!-- wp:group {"tagName":"main","className":"wp-block-group","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><!-- wp:group {"layout":{"type":"constrained","contentSize":"100%"}} -->
+<!-- wp:group {"tagName":"div","className":"wp-block-group","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><!-- wp:group {"layout":{"type":"constrained","contentSize":"100%"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"70%"} -->
 <div class="wp-block-column" style="flex-basis:70%"><!-- wp:group {"className":"slider animations-hidden-item","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/banner.png","id":89,"source":"file","title":"Banner"},"backgroundSize":"cover"},"dimensions":{"minHeight":"500px"},"border":{"radius":"15px"}},"layout":{"type":"constrained","contentSize":"100%"}} -->
@@ -308,7 +308,7 @@
 <div class="wp-block-column is-vertically-aligned-top slider-empty" style="flex-basis:8%"></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
-<!-- /wp:group --></main>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <?php endif; ?>
