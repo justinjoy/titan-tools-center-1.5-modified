@@ -35,7 +35,7 @@ jobs:
 
       - name: Run PHPCS
         run: |
-          vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=full --report-file=phpcs-report.txt --report=checkstyle --report-file=phpcs.xml
+          vendor/bin/phpcs --standard=phpcs.xml.dist --report=full --report-file=phpcs-report.txt --report=checkstyle --report-file=phpcs.xml
           cat phpcs.xml | cs2pr
         continue-on-error: true
 
@@ -50,6 +50,6 @@ jobs:
           echo "## 🛡️ PHPCS Quality Report" >> $GITHUB_STEP_SUMMARY
           echo "### 📊 Statistics" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=summary >> $GITHUB_STEP_SUMMARY || true
+          vendor/bin/phpcs --standard=phpcs.xml.dist --report=summary >> $GITHUB_STEP_SUMMARY || true
           echo '```' >> $GITHUB_STEP_SUMMARY
           echo "Full report available in Artifacts." >> $GITHUB_STEP_SUMMARY
