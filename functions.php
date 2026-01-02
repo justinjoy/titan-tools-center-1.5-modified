@@ -33,19 +33,21 @@ if ( ! function_exists( 'titan_tools_center_styles' ) ) :
 			null
 		);
 
+		// Enqueue Swiper CSS.
 		wp_enqueue_style(
-			'owl.carousel-css',
-			get_template_directory_uri() . '/assets/css/owl.carousel.css',
+			'swiper-css',
+			get_template_directory_uri() . '/assets/css/swiper-bundle.min.css',
 			array(),
-			'2.3.4'
+			'12.0.0'
 		);
-
+		
+		// Enqueue Swiper JS.
 		wp_enqueue_script(
-			'owl-carousel-js',
-			get_template_directory_uri() . '/assets/js/owl.carousel.js',
-			array('jquery'),
-			'2.3.4',
-			true
+			'swiper-js',
+			get_template_directory_uri() . '/assets/js/swiper-bundle.min.js',
+			array(), 
+			'12.0.0', 
+			true 
 		);
 
 		wp_enqueue_script('titan-tools-center-js',

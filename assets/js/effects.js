@@ -1,82 +1,87 @@
 //Scroll Animations
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      // console.log(entry);
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animations-show-item');
-        observer.unobserve(entry.target);
-      } else {
-        entry.target.classList.remove('animations-show-item');
-      }
-    });
+  entries.forEach((entry) => {
+    // console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animations-show-item');
+      observer.unobserve(entry.target);
+    } else {
+      entry.target.classList.remove('animations-show-item');
+    }
   });
+});
 
-  const hiddenElements = document.querySelectorAll('.animations-hidden-item');
-  hiddenElements.forEach((el) => observer.observe(el));
+const hiddenElements = document.querySelectorAll('.animations-hidden-item');
+hiddenElements.forEach((el) => observer.observe(el));
 
-jQuery('document').ready(function(){
-  var owl = jQuery('.slider .owl-carousel');
-    owl.owlCarousel({
-    margin:0,
-    nav: false,
-    autoplay : true,
-    lazyLoad: true,
-    autoplayTimeout: 3000,
+jQuery('document').ready(function () {
+  // Main Banner Swiper
+  const swiper = new Swiper('.product-swiper', {
     loop: true,
-    dots:true,
-    navText : ['<span class="dashicons dashicons-arrow-left-alt2"></span>','<span class="dashicons dashicons-arrow-right-alt2"></span> '],
-    responsive: {
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false, // Similar to autoplayHoverPause: true logic, but Swiper handles it differently.
+    },
+    lazy: true, // Lazy loading
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    // Breakpoints for responsive design
+    breakpoints: {
       0: {
-        items: 1,
-        nav: false,
+        slidesPerView: 1,
       },
       600: {
-        items: 1,
-        nav: false,
+        slidesPerView: 1,
       },
       1000: {
-        items: 1
+        slidesPerView: 1,
       },
       1200: {
-        items: 1
+        slidesPerView: 1,
       }
-    },
-    autoplayHoverPause : true,
-    mouseDrag: true
+    }
   });
 
-    var owl = jQuery('.slider-right .owl-carousel');
-    owl.owlCarousel({
-    margin:0,
-    nav: false,
-    autoplay : true,
-    lazyLoad: true,
-    autoplayTimeout: 3000,
+  // Right Side Swiper
+  const swiperRight = new Swiper('.product-swiper-right', {
     loop: true,
-    dots:true,
-    navText : ['<span class="dashicons dashicons-arrow-left-alt2"></span>','<span class="dashicons dashicons-arrow-right-alt2"></span> '],
-    responsive: {
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    lazy: true,
+    spaceBetween: 20, // margin: 20 equivalent
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
       0: {
-        items: 1,
-        nav: false,
+        slidesPerView: 1,
       },
       600: {
-        margin:20,
-        items: 2,
-        nav: false,
+        slidesPerView: 2,
+        spaceBetween: 20,
       },
       781: {
-        items: 1,
-        nav: false,
+        slidesPerView: 1,
       },
       1000: {
-        items: 1
+        slidesPerView: 1,
       },
       1200: {
-        items: 1
+        slidesPerView: 1,
       }
-    },
-    autoplayHoverPause : true,
-    mouseDrag: true
+    }
   });
 });
