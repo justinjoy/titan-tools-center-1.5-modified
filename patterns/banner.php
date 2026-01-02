@@ -21,11 +21,11 @@
 <!-- wp:group {"className":"swiper-wrapper","style":{"spacing":{"padding":{"left":"13%","right":"20px"}},"dimensions":{"minHeight":"500px"}},"layout":{"type":"constrained","contentSize":"100%"}} -->
 <div class="wp-block-group swiper-wrapper" style="min-height:500px;padding-right:20px;padding-left:13%"><!-- wp:columns {"verticalAlignment":"center","className":"swiper-slide"} -->
 <div class="wp-block-columns are-vertically-aligned-center swiper-slide"><!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"400","textTransform":"capitalize"}},"textColor":"base","fontFamily":"poppins"} -->
-<h5 class="wp-block-heading has-base-color has-text-color has-link-color has-poppins-font-family" style="font-size:14px;font-style:normal;font-weight:400;text-transform:capitalize"><?php esc_html_e('One Time Buy Offer','titan-tools-center'); ?></h5>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-fourth"}}}},"textColor":"secondary-fourth","fontFamily":"poppins"} -->
+<h5 class="wp-block-heading has-secondary-fourth-color has-text-color has-link-color has-poppins-font-family" style="font-size:14px;font-style:normal;font-weight:400;text-transform:capitalize"><?php esc_html_e('One Time Buy Offer','titan-tools-center'); ?></h5>
 <!-- /wp:heading -->
 
-<!-- wp:post-title {"textAlign":"left","isLink":true,"style":{"spacing":{"margin":{"bottom":"0.75rem","top":"0"}},"typography":{"lineHeight":"1.4","fontSize":"40px","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontFamily":"poppins","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
+<!-- wp:post-title {"textAlign":"left","isLink":true,"style":{"spacing":{"margin":{"bottom":"0.75rem","top":"0"}},"typography":{"lineHeight":"1.4","fontSize":"40px","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary-fourth"}}}},"textColor":"secondary-fourth","fontFamily":"poppins","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
 
 <!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"left","textColor":"primary","fontFamily":"roboto","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontSize":"30px","fontStyle":"normal","fontWeight":"600"}}} /-->
 
@@ -96,12 +96,12 @@
 <div class="wp-block-group swiper-slide"><!-- wp:columns {"verticalAlignment":"center","className":"slider-left-column"} -->
 <div class="wp-block-columns are-vertically-aligned-center slider-left-column"><!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:group {"className":"slider-left-content","layout":{"type":"constrained"}} -->
-<div class="wp-block-group slider-left-content"><!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","textTransform":"capitalize"}},"textColor":"base","fontFamily":"poppins"} -->
-<h6 class="wp-block-heading has-base-color has-text-color has-link-color has-poppins-font-family" style="font-size:16px;font-style:normal;font-weight:400;text-transform:capitalize"><?php esc_html_e('One Time Buy Offer','titan-tools-center'); ?></h6>
+<div class="wp-block-group slider-left-content"><!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-fourth"}}}},"textColor":"secondary-fourth","fontFamily":"poppins"} -->
+<h6 class="wp-block-heading has-secondary-fourth-color has-text-color has-link-color has-poppins-font-family" style="font-size:16px;font-style:normal;font-weight:400;text-transform:capitalize"><?php esc_html_e('One Time Buy Offer','titan-tools-center'); ?></h6>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"40px","fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontFamily":"roboto"} -->
-<h3 class="wp-block-heading has-base-color has-text-color has-roboto-font-family" style="font-size:40px;font-style:normal;font-weight:600"><?php esc_html_e('Trendy Products','titan-tools-center'); ?></h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"40px","fontStyle":"normal","fontWeight":"600"}},"textColor":"secondary-fourth","fontFamily":"roboto"} -->
+<h3 class="wp-block-heading has-secondary-fourth-color has-text-color has-roboto-font-family" style="font-size:40px;font-style:normal;font-weight:600"><?php esc_html_e('Trendy Products','titan-tools-center'); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontSize":"30px","fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontFamily":"poppins"} -->

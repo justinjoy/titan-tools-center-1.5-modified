@@ -83,6 +83,23 @@ select#wp-block-categories-1 option {
   font-weight: 400;
 }
 
+/* Banner Text Visibility - Dynamic & Static */
+.product-swiper .swiper-slide h5,
+.product-swiper .swiper-slide h3,
+.product-swiper .swiper-slide .wp-block-heading,
+.product-swiper .swiper-slide .wp-block-post-title,
+.product-swiper .swiper-slide .wc-block-components-product-price,
+.product-swiper .swiper-slide p,
+.slider-left-content h6,
+.slider-left-content h3,
+.slider-left-content p {
+  color: #1a1a1a !important;
+}
+
+.product-swiper .swiper-slide .wp-block-post-title a {
+  color: #1a1a1a !important;
+}
+
 .general-header-middle .wp-block-search__button {
   padding: 5px 10px !important;
   background: transparent !important;
