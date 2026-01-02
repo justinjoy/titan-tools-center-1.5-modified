@@ -103,11 +103,11 @@ License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://pxhere.com/en/license
 Source: https://pxhere.com/en/photo/1387016
 
-Owl Carousel
-* David Deutsch
-* Copyright 2013-2018, David Deutsch
-* https://owlcarousel2.github.io/OwlCarousel2/
-* Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+Swiper
+* Vladimir Kharlampidi
+* Copyright 2014-2024 Vladimir Kharlampidi
+* https://swiperjs.com/
+* Licensed under: MIT License
 
 TGM PLugin
 * [GNU General Public License v2.0]
