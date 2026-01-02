@@ -25,7 +25,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
-          tools: composer
+          tools: composer, cs2pr
 
       - name: Install PHPCS and WPCS
         run: |
@@ -34,11 +34,4 @@ jobs:
           composer require --dev squizlabs/php_codesniffer wp-coding-standards/wpcs
 
       - name: Run PHPCS
-        run: vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=sarif --report-file=phpcs-results.sarif
-        continue-on-error: true
-
-      - name: Upload SARIF Results
-        uses: github/codeql-action/upload-sarif@v4
-        with:
-          sarif_file: phpcs-results.sarif
-          category: phpcs
+        run: vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=checkstyle | cs2pr
