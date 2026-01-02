@@ -36,7 +36,7 @@ if ( ! function_exists( 'titan_tools_center_styles' ) ) :
 		// Enqueue Swiper CSS.
 		wp_enqueue_style(
 			'swiper-css',
-			get_template_directory_uri() . '/assets/css/swiper-bundle.min.css',
+			'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css',
 			array(),
 			'12.0.0'
 		);
