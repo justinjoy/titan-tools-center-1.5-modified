@@ -21,9 +21,11 @@
 	<exclude-pattern>/tests/*</exclude-pattern>
 
 	<!-- Check for cross-version support for PHP 7.0 and higher -->
+	<!-- Check for cross-version support for PHP 7.0 and higher -->
 	<config name="testVersion" value="7.0-"/>
 
 	<!-- Show progress and sniff codes -->
 	<arg value="ps"/>
-	<arg name="colors"/>
+	<!-- Strip the filepaths down to the relevant bit -->
+	<arg name="basepath" value="."/>
 </ruleset>
