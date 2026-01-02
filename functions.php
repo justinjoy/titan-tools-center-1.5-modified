@@ -10,7 +10,7 @@ function titan_tools_center_setup() {
 	/**
 	 * About Theme Function
 	 */
-	require get_theme_file_path( '/about-theme/about-theme.php' );
+	require get_theme_file_path( '/about-theme/class-titan-notice-handler.php' );
 	
 }
 endif; 
