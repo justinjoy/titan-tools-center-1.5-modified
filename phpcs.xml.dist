@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ruleset name="Titan Tools Center">
+	<description>PHPCS ruleset for Titan Tools Center.</description>
+
+	<!-- Use WordPress Coding Standards -->
+	<rule ref="WordPress">
+		<!-- Allow short array syntax -->
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax"/>
+	</rule>
+
+	<!-- Scan the current directory -->
+	<file>.</file>
+
+	<!-- Exclude the TGM Plugin Activation class -->
+	<exclude-pattern>class-tgm-plugin-activation.php</exclude-pattern>
+	<exclude-pattern>tgm.php</exclude-pattern>
+
+	<!-- Exclude common directories -->
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+	<exclude-pattern>/tests/*</exclude-pattern>
+
+	<!-- Check for cross-version support for PHP 7.0 and higher -->
+	<config name="testVersion" value="7.0-"/>
+
+	<!-- Show progress and sniff codes -->
+	<arg value="ps"/>
+	<arg name="colors"/>
+</ruleset>
