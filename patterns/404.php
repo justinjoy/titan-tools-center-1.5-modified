@@ -4,6 +4,8 @@
  * Slug: titan-tools-center/404
  * Categories: 404
  * Block Types: core/template-part/404
+ *
+ * @package Titan_Tools_Center_Modified
  */
 ?>
 
@@ -11,11 +13,11 @@
 <div class="wp-block-group alignwide has-primary-background-color has-background has-body-font-family" style="border-radius:8px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);font-size:32px;font-style:normal;font-weight:700"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"base"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php echo esc_html('404: No page was found','titan-tools-center'); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php echo esc_html__( '404: No page was found', 'titan-tools-center' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<p class="has-text-align-center has-base-color has-text-color has-link-color" style="font-size:16px;font-style:normal;font-weight:400"><?php echo esc_html('The page you are looking for may have vanished into the digital abyss. Lets get you back on track!','titan-tools-center'); ?></p>
+<p class="has-text-align-center has-base-color has-text-color has-link-color" style="font-size:16px;font-style:normal;font-weight:400"><?php echo esc_html__( 'The page you are looking for may have vanished into the digital abyss. Lets get you back on track!', 'titan-tools-center' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
