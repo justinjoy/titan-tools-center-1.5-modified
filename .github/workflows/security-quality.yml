@@ -34,5 +34,13 @@ jobs:
           composer require --dev squizlabs/php_codesniffer wp-coding-standards/wpcs
 
       - name: Run PHPCS
-        run: vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=checkstyle | cs2pr
+        run: |
+          vendor/bin/phpcs . --standard=WordPress --extensions=php --ignore=node_modules,vendor,assets --report=full --report-file=phpcs-report.txt --report=checkstyle --report-file=phpcs.xml
+          cat phpcs.xml | cs2pr
         continue-on-error: true
+
+      - name: Upload PHPCS Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: phpcs-report
+          path: phpcs-report.txt
